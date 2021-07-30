@@ -7,3 +7,8 @@ Accomplished:
 	- Control of the snake
 		> Event listener for keys
 	- Add event collision (walls and food)
+		Method handlers:
+		> eatsnakefood method
+		> update status
+		> endgame
+	- update start new game to reset the game
