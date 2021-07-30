@@ -12,3 +12,5 @@ Accomplished:
 		> update status
 		> endgame
 	- update start new game to reset the game
+	- change the design of the window
+		> got rid of windows title and put custom one with options

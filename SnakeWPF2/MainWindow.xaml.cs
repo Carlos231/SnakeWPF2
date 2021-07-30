@@ -268,7 +268,8 @@ namespace SnakeWPF2
         }
         private void UpdateGameStatus()
         {
-            this.Title = "SnakeWPF - Score: " + currentScore + " - Game speed: " + gameTickTimer.Interval.TotalMilliseconds;
+            this.tbStatusScore.Text = currentScore.ToString();
+            this.tbStatusSpeed.Text = gameTickTimer.Interval.TotalMilliseconds.ToString();
         }
 
         private void EndGame()
@@ -312,6 +313,16 @@ namespace SnakeWPF2
             // Move the snake if direction is changed
             if (snakeDirection != originalSnakeDirection)
                 MoveSnake();
+        }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
+        }
+
+        private void BtnClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
