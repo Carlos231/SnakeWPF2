@@ -1,0 +1,9 @@
+Accomplished:
+
+	- Created the board
+	- Model and of the snake added
+	- Gave snake movement
+	- Added food (apple) for snake in random positions
+	- Control of the snake
+		> Event listener for keys
+	- Add event collision (walls and food)
