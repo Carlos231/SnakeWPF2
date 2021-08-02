@@ -14,3 +14,8 @@ Accomplished:
 	- update start new game to reset the game
 	- change the design of the window
 		> got rid of windows title and put custom one with options
+	- Add 3 new screens and functionalities to buttons
+	- Container to save the players score
+	- use xml file as a db for the scores (save it to them)
+		> read from file
+		> save to file
